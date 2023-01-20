@@ -5,23 +5,23 @@ export default function Navbar() {
   return (
     <nav className='nav'>
       <ul>
-        <li className='active'>
-          <a href='/'>Home</a>
+        <li>
+          <a href='#home' className='active'>Home</a>
         </li>
         <li>
-          <a href='/aPropos'>À propos</a>
+          <a href='#aPropos'>À propos</a>
         </li>
         <li>
-          <a href="/competences">Compétences</a>
+          <a href="#competences">Compétences</a>
         </li>
         <li>
-          <a href="/parcours">Parcours</a>
+          <a href="#parcours">Parcours</a>
         </li>
         <li>
-          <a href="/portfolio">Portfolio</a>
+          <a href="#portfolio">Portfolio</a>
         </li>
         <li>
-          <a href="/contact">Contact</a>
+          <a href="#contact">Contact</a>
         </li>
       </ul>
     </nav>

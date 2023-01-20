@@ -2,10 +2,12 @@
     background-color: rgb(90, 141, 245);
     color: white;
     opacity: 0.5;
-    position: sticky;
+    position: fixed;
+    width: 100%;
     top: 0;
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
+    z-index: 1000;
     align-items: center;
     padding: 1rem 1rem;
 }
@@ -24,10 +26,6 @@
     font-weight: bold;
 }
 
-.nav li.active {
-    color: red;
-}
-
 .nav li:hover {
-    color: rgb(125, 32, 32)
+    color: rgb(125, 32, 32);
 }
