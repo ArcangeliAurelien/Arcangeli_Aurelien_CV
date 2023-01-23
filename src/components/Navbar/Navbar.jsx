@@ -1,12 +1,16 @@
 import React from 'react'
 import './Navbar.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faHouseChimney } from '@fortawesome/free-solid-svg-icons'
 
 export default function Navbar() {
   return (
     <nav className='nav'>
       <ul>
         <li>
-          <a href='#home' className='active'>Home</a>
+          <a href='#home' className='active'>
+            <FontAwesomeIcon icon={faHouseChimney} />
+          </a>
         </li>
         <li>
           <a href='#aPropos'>À propos</a>

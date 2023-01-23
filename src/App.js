@@ -6,6 +6,8 @@ import Competences from "./components/Competences/Competences";
 import Parcours from "./components/Parcours/Parcours";
 import Portfolio from "./components/Portfolio/Portfolio";
 import Contact from "./components/Contact/Contact";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCircleArrowUp } from "@fortawesome/free-solid-svg-icons";
 
 function App() {
   return (
@@ -19,7 +21,9 @@ function App() {
       <Contact />
 
       <div>
-        <a href="#home" className="up">haut de page</a>
+        <a href="#home" className="up">
+          <FontAwesomeIcon icon={faCircleArrowUp} className="arrowUp" />
+        </a>
       </div>
     </div>
   );
