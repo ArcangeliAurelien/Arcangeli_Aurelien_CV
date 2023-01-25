@@ -29,4 +29,5 @@
 
 .nav li:hover {
     color: #7d2020;
+    transition: 200ms ease-in-out;
 }

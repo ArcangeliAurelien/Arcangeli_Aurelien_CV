@@ -8,6 +8,8 @@ import Portfolio from "./components/Portfolio/Portfolio";
 import Contact from "./components/Contact/Contact";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCircleArrowUp } from "@fortawesome/free-solid-svg-icons";
+import initFontAwesome from "./lib/initFontAwesome";
+initFontAwesome()
 
 function App() {
   return (

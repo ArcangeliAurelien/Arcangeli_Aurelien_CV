@@ -22,12 +22,12 @@ body {
 
 .arrowUp {
     opacity: 0.5;
-    width: 60px;
-    height: 60px;
+    font-size: 70px;
     color: #5a8df5;
     z-index: 1000;
 }
 
 .arrowUp:hover {
     color: #7d2020;
+    transition: 200ms ease-in-out;
 }
