@@ -19,7 +19,7 @@ export default function APropos() {
 
   return (
     <div className='aPropos' id='aPropos'>
-      <div className="container">
+      <div className="containerAPP">
         <div className='descId'>
           <ul>
             <li>
