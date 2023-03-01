@@ -3,6 +3,7 @@ import './APropos.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope, faMobile } from '@fortawesome/free-solid-svg-icons';
 import photoProfil from './logo_avatar.jpg'
+import cvAurelienArcangeli from './CV_Auelien_Arcangeli_Developpeur_ JavaScript_React.pdf'
 
 export default function APropos() {
 
@@ -29,6 +30,7 @@ export default function APropos() {
             <li><b>Age : </b>{getAge("1988/05/29")} ans</li>
             <li><b>Ville actuelle : </b>Cuincy (59)</li>
             <li><b>Hobbies : </b>jeux vidéos, cinéma, maquettes</li>
+            <li><b>Langues : </b>Français, Anglais</li>
             <li><b>Permis B</b></li>
             <li>
               <FontAwesomeIcon icon={faEnvelope} /> : arkaurel5929@gmail.com
@@ -37,7 +39,7 @@ export default function APropos() {
               <FontAwesomeIcon icon={faMobile} /> : 06.26.32.46.37
             </li>
             <li>
-              <button className='buttonCV'>TÉLÉCHARGER MON CV</button>
+              <a href={cvAurelienArcangeli}><button className='buttonCV'>TÉLÉCHARGER MON CV</button></a>
             </li>
           </ul>
         </div>
