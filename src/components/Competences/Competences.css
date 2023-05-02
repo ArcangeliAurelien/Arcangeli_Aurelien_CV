@@ -23,16 +23,6 @@
     box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.16);
 }
 
-/*--------------------------------------------------------------------*/
-
-            /* Animation au scroll */
-
-.anime {
-    animation: myAnim 1s ease-in-out 0s 1 normal none;
-}
-
-/*--------------------------------------------------------------------*/
-
 .sousTitre {
     color: rgb(125, 32, 32);
     padding-bottom: 20px;
@@ -53,17 +43,4 @@
     font-weight: bold;
     list-style: none;
     line-height: 35px;
-}
-
-
-@keyframes myAnim {
-    0% {
-        opacity: 0;
-        transform: translateY(50px);
-    }
-
-    100% {
-        opacity: 1;
-        transform: translateY(0);
-    }
 }
