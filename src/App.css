@@ -23,7 +23,7 @@ body {
 .arrowUp {
     opacity: 0.5;
     font-size: 70px;
-    color: #5a8df5;
+    color: rgb(89, 141, 245);
     z-index: 1000;
 }
 
