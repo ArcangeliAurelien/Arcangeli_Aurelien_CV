@@ -4,7 +4,9 @@ import './Parcours.css'
 export default function Parcours() {
   return (
     <div className='parcours' id='parcours'>
-      Parcours
+      <div className='titre'>Parcours</div>
+
+      
     </div>
   )
 }
