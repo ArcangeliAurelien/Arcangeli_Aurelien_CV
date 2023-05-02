@@ -7,6 +7,7 @@ import cvAurelienArcangeli from './CV_Auelien_Arcangeli_Developpeur_ JavaScript_
 
 export default function APropos() {
 
+  // Calcul âge
   const getAge = (dateString) => {
     let today = new Date();
     let birthDate = new Date(dateString);

@@ -3,6 +3,7 @@ import './Competences.css'
 
 export default function Competences() {
 
+  // Animation au scroll
   const startAnimation = (entries, observer) => {
     entries.forEach(entry => {
       entry.target.classList.toggle("anime", entry.isIntersecting);
