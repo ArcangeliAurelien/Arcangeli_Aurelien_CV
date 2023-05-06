@@ -14,6 +14,11 @@
 }
 
 .containerComp {
+    width: 100%;
+    padding: 0 15%;
+}
+
+.cont {
     display: flex;
     flex-direction: column;
     background-color: white;

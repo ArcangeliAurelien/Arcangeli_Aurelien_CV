@@ -1,16 +1,19 @@
 {
     "formations": [
         {
+            "id": 1,
             "date": "Nov.2021 - Janv.2023",
             "titre": "Développeur Concepteur Logiciel",
             "lieu": "OpenClassroom"
         },
         {
+            "id": 2,
             "date": "Oct.2019",
-            "titre": "Ttitre Professionnel Développeur Web/Web Mobile",
+            "titre": "Titre Professionnel Développeur Web/Web Mobile",
             "lieu": "GRETA Grand Hainault, Douai (59)"
         },
         {
+            "id": 3,
             "date": "Juin 2008",
             "titre": "BACCALAUREAT STI - Génie électrotecnique",
             "lieu": "Lycée Deforest de Lewarde, Douai (59)"
@@ -19,6 +22,7 @@
     
     "ExpériencesPro": [
         {
+            "id": 1,
             "date": "2019 (2 mois et demi)",
             "titre": "Stage Développeur Web/Web Mobile",
             "lieu": "GRETA Grand Hainault, Douai (59) / M.J.C. Douai",
@@ -28,6 +32,7 @@
             ]
         },
         {
+            "id": 2,
             "date": "2013 - 2017 (6 mois)",
             "titre": "Manutentionnaire",
             "lieu": "Usine Renault Douai (59)",
@@ -36,6 +41,7 @@
             ]
         },
         {
+            "id": 3,
             "date": "2013 - 2016 (16 mois)",
             "titre": "Préparateur de commande",
             "lieu": "Amazon, Lauwin Planque (59)",
@@ -47,6 +53,7 @@
             ]
         },
         {
+            "id": 4,
             "date": "2012 - 2013 (14 mois)",
             "titre": "Préparateur de commande",
             "lieu": "Simastock GIFI, Lauwin Planque (59)",
@@ -57,6 +64,7 @@
             ]
         },
         {
+            "id": 5,
             "date": "2011 (4 mois)",
             "titre": "Manutentionnaire",
             "lieu": "Recycâble, Noyelle Godault (62)",
@@ -66,6 +74,7 @@
             ]
         },
         {
+            "id": 6,
             "date": "2009 (11 mois)",
             "titre": "Manutentionnaire",
             "lieu": "Usine Lactalis Nestlé, Cuincy (59)",
