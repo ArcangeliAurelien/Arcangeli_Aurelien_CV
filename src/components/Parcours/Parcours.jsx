@@ -36,7 +36,7 @@ export default function Parcours() {
                   <ul>
                     <li>
                       <h3>{data.titre}</h3>
-                      <div>{data.date}</div>
+                      <div><b>{data.date}</b></div>
                       <div>{data.lieu}</div>
                       {(data.descriptif).map((descEle, index) => (<ul>
                         <li key={index}>{descEle}</li></ul>

@@ -37,7 +37,7 @@ export const experiencePro = [
     {
         "date": "2013 - 2016 (16 mois)",
         "titre": "Préparateur de commande",
-        "lieu": "Amazon, Lauwin Planque (59)",
+        "lieu": "Amazon, Lauwin-Planque (59)",
         "descriptif": [
             "Shipping - recherche des articles dans les racks",
             "Emballage des articles",
@@ -48,7 +48,7 @@ export const experiencePro = [
     {
         "date": "2012 - 2013 (14 mois)",
         "titre": "Préparateur de commande",
-        "lieu": "Simastock GIFI, Lauwin Planque (59)",
+        "lieu": "Simastock GIFI, Lauwin-Planque (59)",
         "descriptif": [
             "Shipping - recherche des articles dans les racks",
             "Filmage de palettes",
