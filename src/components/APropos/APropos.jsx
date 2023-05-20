@@ -2,8 +2,8 @@ import React from 'react'
 import './APropos.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope, faMobile } from '@fortawesome/free-solid-svg-icons';
-import photoProfil from './logo_avatar.jpg'
-import cvAurelienArcangeli from './CV_Auelien_Arcangeli_Developpeur_ JavaScript_React.pdf'
+import photoProfil from '../../assets/logo_avatar.jpg';
+import cvAurelienArcangeli from '../../assets/CV_Auelien_Arcangeli_Developpeur_ JavaScript_React.pdf'
 
 export default function APropos() {
 
