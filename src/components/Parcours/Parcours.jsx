@@ -3,8 +3,6 @@ import './Parcours.css'
 import { formations, experiencePro } from '../../data/Parcours.js'
 
 export default function Parcours() {
-  formations.map((ele) => console.log(ele.titre))
-
   return (
     <div className='parcours' id='parcours'>
       <div className='titre'>Parcours</div>
@@ -12,9 +10,9 @@ export default function Parcours() {
         <div className=' box box1'>
           <h2>Formations</h2><br />
           <div>
-            {formations.map((data, key) => {
+            {formations.map((data) => {
               return (
-                <div key={key}>
+                <div key={data.id}>
                   <ul>
                     <li>
                       <h3>{data.date}</h3>
