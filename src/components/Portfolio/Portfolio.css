@@ -39,17 +39,61 @@
 }
 
 .carousel .overlay {
-    width: 80%;
+    width: 100%;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    left: 10%;
     padding: 0.4rem 1.5rem;
     text-align: left;
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(40, 40, 62, 0.6);
     color: #FFF;
 }
 
 .carousel .overlay_titre {
-    margin: 0.8rem 0 1rem 0;
+    margin: 0.8rem 0 1rem 40px;
+}
+
+.carousel .overlay_description {
+    margin: 0 40px 0 40px;
+}
+
+.tags {
+    margin: 10px 0 10px 0;
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+.tag {
+    border: 2px solid rgb(40, 40, 62);
+    border-radius: 40px;
+    padding: 7px;
+    background-color: lightgray;
+    color: rgb(40, 40, 62);
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.button {
+    color: rgb(40, 40, 62);
+    padding: 10px 150px;
+    border: 2px solid rgb(40, 40, 62);
+    background-color: lightgray;
+    border-radius: 40px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.button:hover {
+    border: 2px solid #FFF;
+    color: #FFF;
+    background-color: rgb(125, 32, 32);
+    transition: 200ms ease-in-out;
+    transform: translateY(-7px);
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.6);
 }

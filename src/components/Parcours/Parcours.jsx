@@ -12,14 +12,14 @@ export default function Parcours() {
           <div>
             {formations.map((data) => {
               return (
-                <div key={data.id}>
+                <>
                   <ul>
-                    <li>
+                    <li key={data.id}>
                       <h3>{data.date}</h3>
                       <div>{data.lieu}: <b>{data.titre}</b></div>
                     </li><br />
                   </ul>
-                </div>
+                </>
               )
             })}
           </div>
@@ -28,20 +28,24 @@ export default function Parcours() {
         <div className='box box2'>
           <h2>Expériences Professionelle</h2>
           <div>
-            {experiencePro.map((data, key) => {
+            {experiencePro.map((data) => {
               return (
-                <div key={key}>
+                <>
                   <ul>
-                    <li>
+                    <li key={data.id}>
                       <h3>{data.titre}</h3>
                       <div><b>{data.date}</b></div>
                       <div>{data.lieu}</div>
-                      {(data.descriptif).map((descEle, index) => (<ul>
-                        <li key={index}>{descEle}</li></ul>
+                      {(data.descriptif).map((descEle, index) => (
+                        <>
+                          <ul>
+                            <li key={index}>{descEle}</li>
+                          </ul>
+                        </>  
                       ))}
                     </li><br />
                   </ul>
-                </div>
+                </>
               )
             })}
           </div>

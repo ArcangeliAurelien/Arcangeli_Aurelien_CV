@@ -22,7 +22,21 @@ export default function Portfolio() {
               <img src={require('../../assets/' + slide.image)} alt={slide.titre} />
               <div className="overlay">
                 <h2 className="overlay_titre">{slide.titre}</h2>
+                <ul className='tags'>
+                  <>{(slide.tags).map((tag) => {
+                    return (
+                      
+                        <li key={tag} className='tag'>{tag}</li>
+                      
+                    )
+                  })}</>
+                </ul>
                 <p className="overlay_description">{slide.description}</p>
+                <div className='buttons'>
+                  <a href={slide.GitHub} target="_blank" rel="noreferrer"><button className="button">Voir Github</button></a>
+                  <a href={slide.source} target="_blank" rel="noreferrer"><button className="button">Voir Site</button></a>
+                </div>
+
               </div>
             </div>
           )
