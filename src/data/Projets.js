@@ -33,7 +33,8 @@ export const projets = [
             "CSS",
             "JavaScript"
         ],
-        "source": "https://github.com/ArcangeliAurelien/Arcangeli_Aurelien_7_24052022"
+        "source": "",
+        "GitHub": "https://github.com/ArcangeliAurelien/Arcangeli_Aurelien_7_24052022"
     },
     {
         "id": 4,
