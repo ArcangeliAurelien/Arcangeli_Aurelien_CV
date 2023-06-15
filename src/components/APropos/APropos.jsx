@@ -21,12 +21,11 @@ export default function APropos() {
 
   return (
     <div className='aPropos' id='aPropos'>
+      <div className='titre'>À propos de moi :</div>
       <div className="containerAPP">
         <div className='descId'>
+          <img className='photo' src={photoProfil} alt='profil' />
           <ul>
-            <li>
-              <img className='photo' src={photoProfil} alt='profil' />
-            </li>
             <li><b>Nom : </b>ARCANGELI Aurélien</li>
             <li><b>Age : </b>{getAge("1988/05/29")} ans</li>
             <li><b>Ville actuelle : </b>Cuincy (59)</li>
@@ -46,7 +45,6 @@ export default function APropos() {
         </div>
 
         <div className='desc'>
-          <h2>À propos de moi :</h2>
           <p>
             Je suis développeur débutant, j'ai passé une année à apprendre les bases du développement web aussi bien le Front-End que le Back-End. Etant plus à l'aise dans la partie Front-End du domaine, je me suis spécialisé dans celui-ci, plus particulièrement grâce au framework React qui m'a permit de mieux cibler ce que je souhaite et ainsi affiner mes compétences.
           </p>

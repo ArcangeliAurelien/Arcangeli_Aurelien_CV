@@ -2,6 +2,8 @@
     width: 100%;
     background-color: rgb(243, 243, 243);
     padding: 80px 0px 60px 0px;
+    display: flex;
+    flex-direction: column;
 }
 
 .containerAPP {
@@ -12,18 +14,20 @@
 }
 
 .descId {
-    padding-top: 10px;
     line-height: 30px;
     width: 100%;
     font-size: 16px;
+    margin-right: 20px;
 }
 
 .descId ul {
     list-style: none;
+    padding-left: 0;
 }
 
 .photo {
     max-width: 350px;
+    width: 100%;
 }
 
 .buttonCV {
@@ -60,4 +64,43 @@
 .desc p {
     padding: 10px 0px;
     line-height: 35px;
+}
+
+@media screen and (max-width: 930px) {
+    .containerAPP {
+        flex-direction: column;
+    }
+
+    .descId {
+        display: flex;
+        margin-bottom: 40px;
+    }
+
+    .descId ul {
+        padding-left: 40px;
+    }
+
+    .photo {
+        margin: 0;
+        height: 100%;
+    }
+
+    .desc {
+        padding-left: 0;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .descId {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .descId ul {
+        padding-left: 0;
+    }
+
+    .photo {
+        margin-bottom: 20px;
+    }
 }

@@ -1,22 +1,20 @@
 .home {
-    height: 900px;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-left: 15%;
+    padding: 15%;
 }
 
 .preTitre {
-    font-size: 40px;
+    font-size: clamp(15px, 5vw, 40px);
     font-style: italic;
-    font-size: 300;
 }
 
 .title {
-    font-size: 80px;
+    font-size: clamp(25px, 5vw, 80px);
     font-style: normal;
     font-weight: bold;
     margin: 15px 0px;
