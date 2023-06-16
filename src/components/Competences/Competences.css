@@ -49,3 +49,10 @@
     list-style: none;
     line-height: 35px;
 }
+
+@media screen and (max-width: 835px) {
+    .list {
+        flex-direction: column;
+        gap: 0;
+    }
+}

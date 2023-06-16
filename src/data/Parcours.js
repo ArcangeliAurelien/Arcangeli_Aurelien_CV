@@ -59,7 +59,7 @@ export const experiencePro = [
         "descriptif": [
             "Shipping - recherche des articles dans les racks",
             "Filmage de palettes",
-            "Chargement/Déchargement de camion"
+            "Chargement / Déchargement de camion"
         ]
     },
     {
