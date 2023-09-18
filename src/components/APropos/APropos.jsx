@@ -2,8 +2,8 @@ import React from 'react'
 import './APropos.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope, faMobile } from '@fortawesome/free-solid-svg-icons';
-import photoProfil from '../../assets/logo_avatar.jpg';
-import cvAurelienArcangeli from '../../assets/CV_Auelien_Arcangeli_Developpeur_ JavaScript_React.pdf'
+import photoProfil from '../../assets/Photo_profil.jpg';
+import cvAurelienArcangeli from '../../assets/CV_Aurelien_Arcangeli_Developpeur_Front-End.pdf'
 
 export default function APropos() {
 
@@ -49,7 +49,7 @@ export default function APropos() {
             Je suis développeur débutant, j'ai passé une année à apprendre les bases du développement web aussi bien le Front-End que le Back-End. Etant plus à l'aise dans la partie Front-End du domaine, je me suis spécialisé dans celui-ci, plus particulièrement grâce au framework React qui m'a permit de mieux cibler ce que je souhaite et ainsi affiner mes compétences.
           </p>
           <p>
-            Durant les 14 mois de formation à React, j'ai pu développer mes compétences acquise lors de ma première formation et également apprendre à travailler en autodidacte où j'ai du trouver les solutions aux problèmes qui m'étaient imposé. Ce développement de moi me permet aujourd'hui d'aborder mon travail et mes réalisations ave plus de sérénité.
+            Durant les 14 mois de formation à React, j'ai pu développer mes compétences acquise lors de ma première formation et également apprendre à travailler en autodidacte où j'ai du trouver les solutions aux problèmes qui m'étaient imposé. Ce développement de moi me permet aujourd'hui d'aborder mon travail et mes réalisations avec plus de sérénité.
           </p>
           <p>
             J'ai commencé dans la vie active en tant que préparateur de commande, cela m'a permit d'apprendre à travailler en équipe mais je peux également fournir un travail plus personnel. je suis capable de m'adapter à toutes situations afin de mieux répondre aux attentes des clients.
