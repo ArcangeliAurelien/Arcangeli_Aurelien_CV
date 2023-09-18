@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Arcangeli_Aurelien_CV/static/css/main.2c79a834.css",
+    "main.js": "/Arcangeli_Aurelien_CV/static/js/main.086e53ab.js",
+    "static/media/Projet_11_OpenClassroom.png": "/Arcangeli_Aurelien_CV/static/media/Projet_11_OpenClassroom.04fa9c4e947186f7211c.png",
+    "static/media/Projet_2_OpenClassroom.png": "/Arcangeli_Aurelien_CV/static/media/Projet_2_OpenClassroom.4b645068a91862ec2b7c.png",
+    "static/media/Photo_profil.jpg": "/Arcangeli_Aurelien_CV/static/media/Photo_profil.58101e6792c04a8f9305.jpg",
+    "static/media/Projet_6_OpenClassroom.png": "/Arcangeli_Aurelien_CV/static/media/Projet_6_OpenClassroom.d9d4ab5f31701d8d6572.png",
+    "static/media/CV_Aurelien_Arcangeli_Developpeur_Front-End.pdf": "/Arcangeli_Aurelien_CV/static/media/CV_Aurelien_Arcangeli_Developpeur_Front-End.c1cc20dcf3ce9b4a8112.pdf",
+    "static/media/fond_dev.jpg": "/Arcangeli_Aurelien_CV/static/media/fond_dev.b234fc310c41f02f439b.jpg",
+    "static/media/Projet_12_OpenClassroom.png": "/Arcangeli_Aurelien_CV/static/media/Projet_12_OpenClassroom.4aa768594a24b41686b9.png",
+    "static/media/Projet_7_OpenClassroom.png": "/Arcangeli_Aurelien_CV/static/media/Projet_7_OpenClassroom.58c3f694c8042fd95d03.png",
+    "static/media/logo_avatar.jpg": "/Arcangeli_Aurelien_CV/static/media/logo_avatar.08d5041ce4b7d7ba3663.jpg",
+    "static/media/Projet_14_OpenClassroom.png": "/Arcangeli_Aurelien_CV/static/media/Projet_14_OpenClassroom.51eec26fcc839b27494d.png",
+    "static/media/fond_dev_mobile.jpg": "/Arcangeli_Aurelien_CV/static/media/fond_dev_mobile.e9e29c32583a7619739f.jpg",
+    "index.html": "/Arcangeli_Aurelien_CV/index.html",
+    "main.2c79a834.css.map": "/Arcangeli_Aurelien_CV/static/css/main.2c79a834.css.map",
+    "main.086e53ab.js.map": "/Arcangeli_Aurelien_CV/static/js/main.086e53ab.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2c79a834.css",
+    "static/js/main.086e53ab.js"
+  ]
+}
