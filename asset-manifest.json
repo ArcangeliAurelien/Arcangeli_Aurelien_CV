@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Arcangeli_Aurelien_CV/static/css/main.2c79a834.css",
-    "main.js": "/Arcangeli_Aurelien_CV/static/js/main.58f74f9b.js",
+    "main.js": "/Arcangeli_Aurelien_CV/static/js/main.0a51f6ee.js",
     "static/media/Projet_11_OpenClassroom.png": "/Arcangeli_Aurelien_CV/static/media/Projet_11_OpenClassroom.04fa9c4e947186f7211c.png",
     "static/media/Projet_2_OpenClassroom.png": "/Arcangeli_Aurelien_CV/static/media/Projet_2_OpenClassroom.4b645068a91862ec2b7c.png",
     "static/media/Photo_profil.jpg": "/Arcangeli_Aurelien_CV/static/media/Photo_profil.58101e6792c04a8f9305.jpg",
@@ -15,10 +15,10 @@
     "static/media/fond_dev_mobile.jpg": "/Arcangeli_Aurelien_CV/static/media/fond_dev_mobile.e9e29c32583a7619739f.jpg",
     "index.html": "/Arcangeli_Aurelien_CV/index.html",
     "main.2c79a834.css.map": "/Arcangeli_Aurelien_CV/static/css/main.2c79a834.css.map",
-    "main.58f74f9b.js.map": "/Arcangeli_Aurelien_CV/static/js/main.58f74f9b.js.map"
+    "main.0a51f6ee.js.map": "/Arcangeli_Aurelien_CV/static/js/main.0a51f6ee.js.map"
   },
   "entrypoints": [
     "static/css/main.2c79a834.css",
-    "static/js/main.58f74f9b.js"
+    "static/js/main.0a51f6ee.js"
   ]
 }
