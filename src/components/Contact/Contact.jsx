@@ -8,17 +8,21 @@ export default function Contact() {
     <div>
       <div className='contact'>
         <div className='zoneEmail'>
-          <FontAwesomeIcon icon={faEnvelope} className='iconEmail' />
-          <div className='email'>
-            <b>EMAIL : </b>
-            arkaurel5929@gmail.com
+          <div className='contenuEmail'>
+            <FontAwesomeIcon icon={faEnvelope} className='iconEmail' />
+            <div className='email'>
+              <b>EMAIL : </b>
+              arkaurel5929@gmail.com
+            </div>
           </div>
         </div>
         <div className='zoneMobile'>
-          <FontAwesomeIcon icon={faMobile} className='iconMobile' />
-          <div className='mobile'>
-            <b>TELEPHONE : </b>
-            06.26.32.46.37
+          <div className="contenuMobile">
+            <FontAwesomeIcon icon={faMobile} className='iconMobile' />
+            <div className='mobile'>
+              <b>TELEPHONE : </b>
+              06.26.32.46.37
+            </div>
           </div>
         </div>
       </div>

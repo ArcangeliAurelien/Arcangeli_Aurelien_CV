@@ -69,6 +69,7 @@
 @media screen and (max-width: 930px) {
     .containerAPP {
         flex-direction: column;
+        margin: 0 5%;
     }
 
     .descId {
@@ -91,9 +92,13 @@
 }
 
 @media screen and (max-width: 700px) {
+    .aPropos {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
     .descId {
-        flex-direction: column;
-        align-items: center;
+        gap: 20px;
     }
 
     .descId ul {
@@ -102,5 +107,15 @@
 
     .photo {
         margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .descId {
+        flex-direction: column;
+    }
+
+    .photo {
+        max-width: 630px;
     }
 }

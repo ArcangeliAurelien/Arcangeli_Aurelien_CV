@@ -113,6 +113,13 @@
     }
 }
 
+@media screen and (max-width: 700px) {
+    .portfolio {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}
+
 @media screen and (max-width: 680px) {
     .button {
         padding: 10px 50px;
@@ -148,5 +155,11 @@
         margin-top: 20px;
         margin-bottom: 10px;
         gap: 0;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .carousel .overlay_description {
+        margin: 0;
     }
 }

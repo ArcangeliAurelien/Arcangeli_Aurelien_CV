@@ -115,3 +115,32 @@
     position: relative;
     border-radius: 6px;
 }
+
+@media screen and (max-width: 930px) {
+    .containerParcours {
+        margin: 0 5%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .parcours {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .box ul {
+        padding: 5px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .cont {
+        padding-left: 5%;
+    }
+
+    .list {
+        gap: 20px;
+    }
+}
